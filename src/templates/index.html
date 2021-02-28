@@ -1,0 +1,11 @@
+{% extends "layout.html" %}
+
+{% block body %}
+<div>
+    <div class="list card">
+        <div class="card-body">
+            <a href="{{ url_for('description_page') }}">{{ data.name }}</a>
+        </div>
+    </div>
+</div>
+{% endblock %}
